@@ -65,3 +65,6 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem 'devise'  # ユーザー認証用
+gem 'tailwindcss-rails'  # シンプルでキャッチーなレイアウトのため
