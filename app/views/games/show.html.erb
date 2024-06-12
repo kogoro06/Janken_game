@@ -13,3 +13,12 @@
     </div>
   </div>
 </div>
+
+<div class="game-result mt-5">
+  <div class="player-hand <%= 'shake' if @game.user_choice %>">
+    <img src="<%= asset_path(@game.user_choice + '.png') %>" alt="<%= @game.user_choice %>" class="hand">
+  </div>
+  <div class="computer-hand <%= 'shake' if @game.computer_choice %>">
+    <img src="<%= asset_path(@game.computer_choice + '.png') %>" alt="<%= @game.computer_choice %>" class="hand">
+  </div>
+</div>

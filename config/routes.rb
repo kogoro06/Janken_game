@@ -1,5 +1,7 @@
+# config/routes.rb
+
 Rails.application.routes.draw do
-  resources :games
   devise_for :users
-  root 'staticpages#top'
+  resources :games
+  root 'games#index' # ゲームの一覧画面をルートに設定する
 end

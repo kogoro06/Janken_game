@@ -66,5 +66,5 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem 'devise'  # ユーザー認証用
+gem 'devise'
 gem 'tailwindcss-rails'
