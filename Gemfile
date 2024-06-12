@@ -67,4 +67,4 @@ group :test do
 end
 
 gem 'devise'  # ユーザー認証用
-gem 'tailwindcss-rails'  # シンプルでキャッチーなレイアウトのため
+gem 'tailwindcss-rails'
